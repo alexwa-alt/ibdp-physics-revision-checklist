@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IB Physics SL Revision Checklist</title>
+  <meta name="description" content="Revision checklist for IB DP Physics SL with quick checks, revision links and exam-style questions.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>IB Physics SL <span>Revision Checklist</span></h1>
+      <p class="lede">Tick each item once you've revised it. Not sure you've got it? Try a <strong>Quick check</strong>. Want more? Use <strong>Revise more</strong>.</p>
+      <div class="overall">
+        <div class="bar" aria-hidden="true"><div id="overallFill"></div></div>
+        <p id="overallText" aria-live="polite"></p>
+      </div>
+      <div class="toolbar">
+        <label class="search"><span class="sr-only">Search topics</span>
+          <input id="search" type="search" placeholder="Search, e.g. half-life">
+        </label>
+        <div class="filters" role="group" aria-label="Show">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="todo">Not revised</button>
+          <button class="chip" data-filter="unsure">Needs work</button>
+          <button class="chip" data-filter="done">Revised</button>
+        </div>
+        <button id="progressBtn" class="ghost">Save / move progress</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="wrap"></main>
+
+  <footer class="wrap foot">
+    <p>Your progress is saved in this browser on this device. Use <em>Save / move progress</em> to copy it to another device.</p>
+    <p>Exam-style questions are original IB-style practice, not official IB past-paper questions. External links open in a new tab.</p>
+  </footer>
+
+  <dialog id="modal">
+    <div class="modal-head">
+      <h2 id="modalTitle"></h2>
+      <button id="modalClose" class="icon" aria-label="Close">✕</button>
+    </div>
+    <div id="modalBody"></div>
+  </dialog>
+
+  <script src="data/topics.js"></script>
+  <script src="data/content/theme1.js"></script>
+  <script src="data/content/theme2.js"></script>
+  <script src="data/content/theme3.js"></script>
+  <script src="data/content/theme4.js"></script>
+  <script src="data/content/theme5.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
